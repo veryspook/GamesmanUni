@@ -8,7 +8,7 @@ import { playGameAmbience, pauseAllGameSounds } from "./audio"
 import { useStore } from "../plugins/store";
 const moveHistoryDelim = ':';
 
-const deepcopy = (obj: Object) => {
+export const deepcopy = (obj: Object) => {
     return JSON.parse(JSON.stringify(obj));
 };
 
