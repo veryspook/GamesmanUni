@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts" setup>
-    import { computed, watch } from "vue";
+    import { computed } from "vue";
     import VueMarkdownIt from "vue3-markdown-it";
     import MarkdownItLinkAttributes from "markdown-it-link-attributes";
     import { actionTypes, mutationTypes, useStore } from "../../../scripts/plugins/store";
